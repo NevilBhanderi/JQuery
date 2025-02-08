@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+         <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>
+
+</head>
+<body>
+
+    <div class="part1">
+            <img src="logo-light-full.png" alt="">
+
+            <h3>APPS</h3>
+            <div class="slide">
+
+                <div class="title">
+                    <h2><i class="fa-solid fa-chart-simple"></i>  Project </h2>
+                    <i id="icn" class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="sl2">
+                    <a href="">dashboard</a> <br>
+                    <a href="">project list</a> <br>
+                    <a href="">scrum board</a> <br>
+                    <a href="">issue</a> <br>
+                </div>
+
+                <div class="title">
+                    <h2> <i class="fa-solid fa-users"></i> CRM </h2>
+                    <i id="icn" class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="sl2">
+                    <a href="">dashboard</a> <br>
+                    <a href="">calender</a> <br>
+                    <a href="">customers</a> <br>
+                    <a href="">customer detail</a> <br>
+                    <a href="">mail</a> <br>
+                </div>
+
+                <div class="title">
+                    <h2> <i class="fa-solid fa-chart-line"></i> Sales </h2>
+                    <i id="icn" class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="sl2">
+                    <a href="">dashboard</a> <br> 
+                    <a href="">product list</a> <br>
+                    <a href="">product edit</a> <br>
+                    <a href="">new product</a> <br>
+                    <a href="">order list</a> <br>
+                    <a href="">order details</a> <br>
+                </div>
+
+                <div class="title">
+                    <h2><i class="fa-solid fa-dollar-sign"></i> Crypto </h2>
+                    <i id="icn" class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="sl2">
+                    <a href="">dashboard</a> <br>
+                    <a href="">portfolio</a> <br>
+                    <a href="">market</a> <br>
+                    <a href="">wallets</a> <br>
+                </div>
+
+                <div class="title">
+                    <h2><i class="fa-solid fa-book-open"></i> Knowledge Base </h2>
+                    <i id="icn" class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="sl2">
+                    <a href="">help center</a> <br>
+                    <a href="">artical</a> <br>
+                    <a href="">manage articles</a> <br>
+                    <a href="">edit article</a> <br>
+                </div>
+
+                <div class="title">
+                    <h2> <i class="fa-regular fa-user"></i> Account </h2>
+                    <i id="icn" class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="sl2">
+                    <a href="">setting</a> <br>
+                    <a href="">invoice</a> <br>
+                    <a href="">activity log</a> <br>
+                    <a href="">KYC form</a> <br>
+                </div>
+            </div>
+
+
+            <!-- uicomponets -->
+            <h3>UI COMPONENTS</h3>
+            <div class="slide">
+
+                <div class="title">
+                    <h2><i class="fa-solid fa-swatchbook"></i> common </h2>
+                    <i id="icn" class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="sl2">
+                    <a href="">button</a> <br>
+                    <a href="">grid</a> <br>
+                    <a href="">typography</a> <br>
+                    <a href="">icons</a> <br>
+                </div>
+
+                <div class="title">
+                    <h2> <i class="fa-regular fa-message"></i> Feedback </h2>
+                    <i id="icn" class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="sl2">
+                    <a href="">alert</a> <br>
+                    <a href="">dialod</a> <br>
+                    <a href="">drawer</a> <br>
+                    <a href="">progress</a> <br>
+                    <a href="">skeleton</a><br>
+                    <a href="">spinner</a><br>
+                    <a href="">toast</a> <br>
+                </div>
+
+                <div class="title">
+                    <h2> <i class="fa-solid fa-display"></i> Data Display </h2>
+                    <i id="icn" class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="sl2">
+                    <a href="">avatar</a><br>
+                    <a href="">badge</a><br>
+                    <a href="">calender</a><br>
+                    <a href="">card</a><br>
+                    <a href="">table</a><br>
+                    <a href="">tag</a><br>
+                    <a href="">timeline</a><br>
+                    <a href="">tooltip</a><br>
+                </div>
+
+                <div class="title">
+                    <h2><i class="fa-solid fa-file-lines"></i> Forms </h2>
+                    <i id="icn" class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="sl2">
+                    <a href="">checkbox</a><br>
+                    <a href="">date picker</a><br>
+                    <a href="">form control</a><br>
+                    <a href="">input</a><br>
+                    <a href="">input group</a><br>
+                    <a href="">radio</a><br>
+                    <a href="">segment</a><br>
+                    <a href="">select</a><br>
+                    <a href="">switcher</a><br>
+                    <a href="">time input</a><br>
+                    <a href="">upload</a><br>
+                </div>
+
+                <div class="title">
+                    <h2><i class="fa-solid fa-location-arrow"></i> Navigation </h2>
+                    <i id="icn" class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="sl2">
+                    <a href="">dropdown</a><br>
+                    <a href="">menu</a><br>
+                    <a href="">pagination</a><br>
+                    <a href="">steps</a><br>
+                    <a href="">tabs</a><br>
+                    
+                </div>
+
+                <div class="title">
+                    <h2> <i class="fa-solid fa-chart-pie"></i> Graph </h2>
+                    <i id="icn" class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="sl2">
+                    <a href="">charts</a><br>
+                    <a href="">maps</a><br>
+                </div>
+            </div>
+        
+
+        
+        <!-- pages -->
+            <h3>Pages</h3>
+            <div class="slide">
+
+                <div class="title">
+                    <h2><i class="fa-regular fa-hand"></i> welcome </h2>
+                
+                </div>
+
+                <div class="title">
+                    <h2><i class="fa-solid fa-ban"></i>Access denide</h2>
+                </div>
+
+            </div>    
+        
+        <!-- AUTHENTICATION -->
+        <h3>AUTHENTICATION</h3>
+        <div class="slide">
+
+            <div class="title">
+                <h2><i class="fa-solid fa-shield"></i> Sign in </h2>
+                <i id="icn" class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <div class="sl2">
+                <a href="">simple</a><br>
+                <a href="">slide</a><br>
+                <a href="">cover</a><br>
+                
+            </div>
+
+            <div class="title">
+                <h2> <i class="fa-solid fa-user-plus"></i> Sign Up </h2>
+                <i id="icn" class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <div class="sl2">
+                <a href="">simple</a><br>
+                <a href="">slide</a><br>
+                <a href="">cover</a><br>
+                
+            </div>
+
+            <div class="title">
+                <h2> <i class="fa-solid fa-lock"></i> Forgot Password </h2>
+                <i id="icn" class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <div class="sl2">
+                <a href="">simple</a><br>
+                <a href="">slide</a><br>
+                <a href="">cover</a><br>
+            </div>
+
+            <div class="title">
+                <h2><i class="fa-solid fa-key"></i> Reset Password </h2>
+                <i id="icn" class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <div class="sl2">
+                <a href="">simple</a><br>
+                <a href="">slide</a><br>
+                <a href="">cover</a><br>
+            </div>
+        </div>
+
+        <!-- guide -->
+        <h3>GUIDE</h3>
+        <div class="slide">
+
+            <div class="title1">
+                <h2><i class="fa-regular fa-file"></i>Documentation </h2>
+               
+            </div>
+
+            <div class="title1">
+                <h2><i class="fa-solid fa-share-nodes"></i>Shared Component</h2>
+            </div>
+
+            <div class="title1">
+                <h2>(x) Utilities</h2>
+            </div>
+
+            <div class="title1">
+                <h2><i class="fa-solid fa-code"></i>Changelog</h2>
+            </div>
+
+
+        </div>  
+    </div> 
+
+
+    <div class="icnslide">
+        <img src="logo-light-streamline.png" alt="">
+
+        <i class="fa-solid fa-chart-simple"></i>
+        <i class="fa-solid fa-users"></i>
+        <i class="fa-solid fa-chart-line"></i>
+        <i class="fa-solid fa-dollar-sign"></i>
+        <i class="fa-solid fa-book-open"></i>
+        <i class="fa-regular fa-user"></i>
+        
+        <i class="fa-solid fa-swatchbook"></i>
+        <i class="fa-regular fa-message"></i> 
+        <i class="fa-solid fa-display"></i>
+        <i class="fa-solid fa-file-lines"></i>
+        <i class="fa-solid fa-location-arrow"></i>
+        <i class="fa-solid fa-chart-pie"></i>
+
+        <i class="fa-regular fa-hand"></i>
+        <i class="fa-solid fa-ban"></i>
+
+        <i class="fa-solid fa-shield"></i> 
+        <i class="fa-solid fa-user-plus"></i>       
+        <i class="fa-solid fa-lock"></i>
+        <i class="fa-solid fa-key"></i>
+
+        <i class="fa-regular fa-file"></i>
+        <i class="fa-solid fa-share-nodes"></i>
+        <h3>(x)</h3>
+        <i class="fa-solid fa-code"></i>
+
+    </div>
+    <div class="part2">
+        <div class="nav">
+            <div class="n1">
+                <i id="i1" class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="n2">
+                <img src="round-flag-india_23-2147813736.jpg" alt="">
+                <i class="fa-regular fa-bell"></i>
+                <i class="fa-solid fa-gear"></i>
+                <img src="thumb-1.jpg" alt="">
+                <div class="pro">
+                    
+                    <p>admin</p>
+                    <h5>Carolyn Perkins</h5>
+                </div>
+            </div>
+
+        </div>
+        <!-- sec1 -->
+        <div class="sec1">
+        <div class="s11">
+            <h1>Sales Overview</h1>
+            <p>View your current sales & overview</p>
+        </div>
+        <div class="s12">
+            <div class="date">
+                <p>Sep 08, 2023 ~ Dec 08, 2023         <i class="fa-solid fa-xmark"></i></p>
+            </div>
+            <div class="filter">
+                <p><i class="fa-solid fa-filter"></i>  filter</p>
+            </div>
+        </div>
+        </div>
+        <!-- sec1 -->
+
+        <!-- sec2 -->
+        <div class="sec2">
+            <div class="s2">
+                <p>Revenue</p>
+                <div class="s2tex">
+                    <h1>$21,827.13
+                     <p>vs. 3 months prior to 20 Jan</p>
+                    </h1>
+                    
+                    <div class="per">
+                       <p><i class="fa-solid fa-arrow-up"></i>      11.4%</p> 
+                    </div>
+                </div>
+            </div>
+            
+            <div class="s2">
+                <p>Orders</p>
+                <div class="s2tex">
+                    <h1>1,758
+                     <p>vs. 3 months prior to 20 Jan</p>
+                    </h1>
+                    
+                    <div class="per" id="red1">
+                       <p><i class="fa-solid fa-arrow-down"></i>      -3.2%</p> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="s2">
+                <p>Puechases</p>
+                <div class="s2tex">
+                    <h1>$7,249.31
+                     <p>vs. 3 months prior to 20 Jan</p>
+                    </h1>
+                    
+                    <div class="per">
+                       <p><i class="fa-solid fa-arrow-up"></i>      5.7%</p> 
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+        <!-- sec2 -->
+
+        <!-- sec3 -->
+        <div class="sec3">
+            <div class="s31">
+                <div id="chart"></div>
+            </div>
+            <div class="s32">
+                <div id="chart1"></div>
+                <div class="s3p">
+                <p>&#x2022; device</p> <br>
+                <p>&#x2022; watches</p>
+                <p>&#x2022; bags</p>
+                <p>&#x2022; shoes</p>
+                </div>
+            </div>
+        </div>
+        <!-- sec3 -->
+
+        <!-- sec4 -->
+        <div class="sec4">
+            <div class="s41">
+
+                <div class="s4head">
+                    <h1>Latest Orders</h1>
+                    <button>View Orders</button>
+                </div>
+
+                <div class="s4order">
+                    <div class="ol"><p>ORDER</p></div>
+                    <div class="ol"><p>STATUS</p></div>
+                    <div class="ol"><p>DATE</p></div>
+                    <div class="ol"><p>CUSTOMER</p></div>
+                    <div class="ol"><p>PROFILE <br> PROGRESS</p></div>
+                </div>
+
+                <div class="s4order1">
+                    <div class="ol"><a href="">#95954</a></div>
+                    <div class="ol"><p id="green">&#x2022; paid</p></div>
+                    <div class="ol"><p>10/08/2023</p></div>
+                    <div class="ol"><p>Ron Vargas</p></div>
+                    <div class="ol"><p>$168.00</p></div>
+                </div>
+
+                <div class="s4order1">
+                    <div class="ol"><a href="">#95423</a></div>
+                    <div class="ol"><p id="green">&#x2022; paid</p></div>
+                    <div class="ol"><p>30/07/2023</p></div>
+                    <div class="ol"><p>Carolyn Hanso</p></div>
+                    <div class="ol"><p>$523.00</p></div>
+                </div>
+
+                <div class="s4order1">
+                    <div class="ol"><a href="">#92903</a></div>
+                    <div class="ol"><p id="orange">&#x2022; pending</p></div>
+                    <div class="ol"><p>18/07/2023</p></div>
+                    <div class="ol"><p>Gabriella May</p></div>
+                    <div class="ol"><p>$81.00</p></div>
+                </div>
+
+                <div class="s4order1">
+                    <div class="ol"><a href="">#92627</a></div>
+                    <div class="ol"><p id="red">&#x2022; failed</p></div>
+                    <div class="ol"><p>09/07/2023</p></div>
+                    <div class="ol"><p>Tara Fletcher</p></div>
+                    <div class="ol"><p>$279.00</p></div>
+                </div>
+
+                <div class="s4order1">
+                    <div class="ol"><a href="">#89332</a></div>
+                    <div class="ol"><p id="green">&#x2022; paid</p></div>
+                    <div class="ol"><p>02/06/2023</p></div>
+                    <div class="ol"><p>Eileen Horton</p></div>
+                    <div class="ol"><p>$597.00</p></div>
+                </div>
+
+                <div class="s4order1">
+                    <div class="ol"><a href="">#86497</a></div>
+                    <div class="ol"><p id="red">&#x2022; failed</p></div>
+                    <div class="ol"><p>19/03/2023</p></div>
+                    <div class="ol"><p>Lloyd Obrien</p></div>
+                    <div class="ol"><p>$189.00</p></div>
+                </div>
+            </div>
+            <div class="s42">
+                <div id="calendar"></div>
+            </div>
+        </div>
+        <!-- sec4 -->
+    </div>
+    
+    
+</body>
+<script src="style.js"></script>
+</html>
